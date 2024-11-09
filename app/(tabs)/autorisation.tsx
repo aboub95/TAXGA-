@@ -12,12 +12,12 @@ export default function(){
 
    </View>
     <Imag/>
-  <View style={{backgroundColor:' #159237',}}>
+  <View style={{backgroundColor:'#159237', borderRadius: 25}}>
     <View style={{flex: 1, justifyContent:'center'}}>
-    <Text style={{fontSize: 25, textAlign:'center', marginBottom: 30,}}>Autorisation de localistion</Text>
+    <Text style={{fontSize: 25, textAlign:'center', marginBottom: 30, color:"#fff", fontWeight: "bold"}}>Autorisation de localistion</Text>
     </View>
     <View style={{flex: 1, justifyContent:"center"}}>
-    <Text  style={{textAlign: 'center', marginBottom: 40}}>cette application receuille  des données  de localisation pour definir les emplacements  de votre course. Elle receuille egalement les emplacements lorsauz l’application est fermée et non utliisée pendant votre course pour des    mesures de sécurité.</Text>
+    <Text  style={{textAlign: 'center', marginBottom: 40, color:"#fff"}}>cette application receuille  des données  de localisation pour definir les emplacements  de votre course. Elle receuille egalement les emplacements lorsauz l’application est fermée et non utliisée pendant votre course pour des    mesures de sécurité.</Text>
     </View>
     <Button/>
     <Button2/>
@@ -30,10 +30,8 @@ export default function(){
 
 const styles = StyleSheet.create({
     barre:{
-     
-      backgroundColor: "#000",
-     
-      
+      backgroundColor: "green",
+      width: "100%"
     }
    
    

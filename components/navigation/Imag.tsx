@@ -14,8 +14,8 @@ export default function(){
 const { width } = Dimensions.get("window");
 const styles = StyleSheet.create({
     tinyLogo: {
-      width: 300,
-      height: 90,
+      width: 200,
+      height: 80,
     },
   
   
